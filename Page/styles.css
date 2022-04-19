@@ -4,13 +4,27 @@
     padding: 0;
  }
 
- .navbar{
-     background-color: salmon;
-     display: flex;
+.navbar{ 
+    background-color: salmon;
+    display: flex;
+    height: 100px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    margin-left: 5%;
  }
 
- .logo{
-     flex: 1;
- }
-
- 
+.sections{
+    display: flex;
+    flex: 1;
+    background-color: bisque;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+  
