@@ -10,6 +10,7 @@
     height: 100px;
     align-items: center; 
     justify-content: center;
+    opacity: .5;
 }
 
 .logo{
@@ -26,5 +27,10 @@
     background-color: bisque;
     justify-content: space-around;
     margin-right: 5%;
+}
+
+.main{
+    position: absolute;
+    width: 100%;
 }
   
